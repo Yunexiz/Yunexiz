@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Oonoos
+- 👋 Hi, I’m @Yunexz
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning Python,Javascript,C and HTML5
 - 💞️ I’m looking to collaborate on anything...
