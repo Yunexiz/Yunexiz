@@ -2,7 +2,7 @@
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning Python,Javascript,C and HTML5
 - 💞️ I’m looking to collaborate on anything...
-- 📫 How to reach me: Oonoos(Discord)
+- 📫 How to reach me: yunexiz(Discord)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I can't code 😄
 
