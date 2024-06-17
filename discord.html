@@ -62,11 +62,20 @@
 
     .bot-button {
       border-radius: 5px;
-      background-color: #7289da;
+      background-color: #7289da; /* Blue background */
+      color: white; /* White text */
+      border: none; /* No border */
+      padding: 10px 20px; /* Padding for size */
+      text-align: center; /* Center text */
+      text-decoration: none; /* No underline */
+      display: inline-block; /* Allows setting dimensions */
+      font-size: 16px; /* Text size */
+      margin: 4px 2px; /* Margin for spacing */
+      cursor: pointer; /* Cursor changes to indicate it's clickable */
     }
 
     .bot-button:hover {
-      background-color: #424549;
+      background-color: #424549; /* Grey background on hover */
     }
       
 </style>
@@ -76,7 +85,7 @@
     <img src="discord.png" alt="Platform icon" class="profile-img"><br>
     <div>
       <span style="font-size: 30px;">yunexiz</span><br>
-      <p>Since there are no profile pages on Discord you were redirected to this page. <br> <br> <a href="https://discord.com/oauth2/authorize?client_id=1149384575190057050" class="bot-button">Free AI Discord bot by me</a> <br> <br> <strong>(Hover over icons for details or click to go to link.)</p></strong>
+      <p>Since there are no profile pages on Discord you were redirected to this page. <br> <br> <button onclick="location.href='/main.html'" class="bot-button">Free AI Discord bot by me</button> <br> <br> <strong>(Hover over icons for details or click to go to link.)</p></strong>
     </div>
     <div class="social-icons">
     <div title="Nonam4lol">
