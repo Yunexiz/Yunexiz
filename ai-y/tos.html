@@ -26,17 +26,16 @@
     .info-box {
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
-        padding: 40px; /* Increased from 20px for more internal space */
+        padding: 20px;
         border-radius: 10px;
-        width: calc(100% - 10px); /* Decreased subtraction from 100% for a wider box */
-        max-width: 1500px; /* Increased from 1200px for larger screens */
+        width: calc(100% - 20px); /* Almost touches the sides */
+        max-width: 1200px; /* Optional: Set a maximum width */
         box-sizing: border-box;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-
 
     .profile-img {
         border-radius: 50%;
@@ -54,6 +53,13 @@
         flex-basis: 100%;
         text-align: center;
         margin-top: 20px;
+    }
+
+    .social-icons-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .social-icons {
@@ -82,6 +88,11 @@
         border: 2px solid white;
         box-sizing: border-box;
         border-radius: 50%;
+    }
+
+    .details-text {
+        margin-left: 10px;
+        color: white;
     }
 
     .bot-button {
@@ -125,49 +136,52 @@
     </div>
     <img src="../gpt.png" alt="App icon" class="profile-img">
     <div class="content">
-      <p>Using AI-Y means accepting that all your messages and active channels are recorded and saved to a database, forevor or until they get deleted.<br> I can delete your messages or channels when I want and I can also view them when I want (This is somewhat public info anyway on Discord).<br>I am not in charge for any damages caused by this bot/AI and always know that AI.Y can make mistakes.<br><br> By using a command (Mentions/triggers count) or sending a message in an active channel, you accept this and can't complain about it. <br> <br> <strong>(Hover over icons for details or click to go to link.)</strong></p>
+      <p>Using AI-Y means accepting that all your messages and active channels are recorded and saved to a database, forever or until they get deleted.<br> I can delete your messages or channels when I want and I can also view them when I want (This is somewhat public info anyway on Discord).<br>I am not in charge for any damages caused by this bot/AI and always know that AI.Y can make mistakes.<br><br> By using a command (Mentions/triggers count) or sending a message in an active channel, you accept this and can't complain about it. <br> <br> <strong>(Hover over icons for details or click to go to link.)</strong></p>
     </div>
-    <div class="social-icons">
-      <div title="Nonam4lol">
-        <a href="https://reddit.com/u/nonam4lol">
-          <img src="../reddit.png" alt="Reddit">
-        </a>
+    <div class="social-icons-container">
+      <div class="social-icons">
+        <div title="Nonam4lol">
+          <a href="https://reddit.com/u/nonam4lol">
+            <img src="../reddit.png" alt="Reddit">
+          </a>
+        </div>
+        <div title="Yunexiz">
+          <a href="https://github.com/Yunexiz">
+            <img src="../github.png" alt="GitHub">
+          </a>
+        </div>
+        <div title="Yunexiz">
+          <a href="https://gitlab.com/Yunexiz">
+            <img src="../gitlab.png" alt="GitLab">
+          </a>
+        </div>
+        <div title="Yunexiz">
+          <a href="https://twitter.com/Yunexiz">
+            <img src="../twitter.png" alt="Twitter">
+          </a>
+        </div>
+        <div title="yunexiz">
+          <a href="../discord.html">
+            <img src="../discord.png" alt="Discord">
+          </a>
+        </div>
+        <div title="Yunexiz#6689">
+          <a href="/riot.html">
+            <img src="../riot.png" alt="Riot">
+          </a>
+        </div>
+        <div title="Chat site by me">
+          <a href="https://chitsy.talk4fun.net">
+            <img src="../chitsy.ico" alt="Chitsy">
+          </a>
+        </div>
+        <div title="Yunexiz">
+          <a href="https://myanimelist.net/animelist/Yunexiz">
+            <img src="../mal.png" alt="MyAnimeList">
+          </a>
+        </div>
       </div>
-      <div title="Yunexiz">
-        <a href="https://github.com/Yunexiz">
-          <img src="../github.png" alt="GitHub">
-        </a>
-      </div>
-      <div title="Yunexiz">
-        <a href="https://gitlab.com/Yunexiz">
-          <img src="../gitlab.png" alt="GitLab">
-        </a>
-      </div>
-      <div title="Yunexiz">
-        <a href="https://twitter.com/Yunexiz">
-          <img src="../twitter.png" alt="Twitter">
-        </a>
-      </div>
-      <div title="yunexiz">
-        <a href="../discord.html">
-          <img src="../discord.png" alt="Discord">
-        </a>
-      </div>
-      <div title="Yunexiz#6689">
-        <a href="/riot.html">
-          <img src="../riot.png" alt="Riot">
-        </a>
-      </div>
-      <div title="Chat site by me">
-        <a href="https://chitsy.talk4fun.net">
-          <img src="../chitsy.ico" alt="Chitsy">
-        </a>
-      </div>
-      <div title="Yunexiz">
-        <a href="https://myanimelist.net/animelist/Yunexiz">
-          <img src="../mal.png" alt="MyAnimeList">
-        </a>
-      </div>
+      <span class="details-text">(Hover over icons for details or click to go to link.)</span>
     </div>
   </div>
 </body>
