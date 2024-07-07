@@ -39,53 +39,14 @@
         max-width: 100px;
     }
 
-    .social-icons {
-        display: flex; /* Display icons side by side */
-        justify-content: center; /* Center horizontally */
-        margin-top: 20px; /* Add some spacing */
+    .top-buttons-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px; /* Adds some space between the buttons and the main content */
     }
 
-    .social-icons a {
-        display: inline-block;
-        margin: 0 10px; /* Adjust spacing between icons */
-        width: 50px;
-        height: 50px;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-
-    .social-icons img {
-        width: 100%;
-        height: 100%;
-        transition: filter 0.5s ease-in-out, border 0.15s ease-in-out;
-    }
-
-    .social-icons img:hover {
-        filter: none; /* Remove the grayscale filter */
-        border: 2px solid white; /* Add a white border */
-        box-sizing: border-box; /* Ensure the border doesn't change the size of the element */
-        border-radius: 50%; /* Keep the icons round */
-    }
-
-    .bot-button {
-      border-radius: 5px;
-      background-color: #7289da; /* Blue background */
-      color: white; /* White text */
-      border: none; /* No border */
-      padding: 10px 20px; /* Padding for size */
-      text-align: center; /* Center text */
-      text-decoration: none; /* No underline */
-      display: inline-block; /* Allows setting dimensions */
-      font-size: 16px; /* Text size */
-      margin: 4px 2px; /* Margin for spacing */
-      cursor: pointer; /* Cursor changes to indicate it's clickable */
-    }
-
-    .bot-button:hover {
-      background-color: #424549; /* Grey background on hover */
-    }
-
-    .tos-button {
+    .tos-button, .privacy-button {
       background-color: #7289da;
       color: white;
       display: inline-block;
@@ -98,35 +59,18 @@
       text-decoration: none;
     }
 
-    .tos-button:hover {
-      background-color: #424549;
-    }
-
-    .privacy-button {
-      background-color: #7289da;
-      color: white;
-      display: inline-block;
-      cursor: pointer;
-      padding: 5px 10px;
-      margin: 2px 1px;
-      text-align: center;
-      border-radius: 3px;
-      border: none;
-      text-decoration: none;
-    }
-
-    .privacy-button:hover {
+    .tos-button:hover, .privacy-button:hover {
       background-color: #424549;
     }
   </style>
 </head>
 <body>
   <div class="info-box">
-    <div style="display: flex; justify-content: space-between;">
+    <img src="gpt.png" alt="App icon" class="profile-img"><br>
+    <div class="top-buttons-container">
       <button onclick="location.href='./ai-y/tos.html'" class="tos-button">Terms of Service</button>
       <button onclick="location.href='./ai-y/privacy.html'" class="privacy-button">Privacy Policy</button>
     </div>
-    <img src="gpt.png" alt="App icon" class="profile-img"><br>
     <div>
       <span style="font-size: 30px;">AI.Y</span><br>
       <p>AI.Y is a free AI chatbot you can add to your server, you can choose different personas and also generate images with many different models. <br><button onclick="location.href='https://discord.com/oauth2/authorize?client_id=1149384575190057050'" class="bot-button">Add to server</button><br> <br> <strong>(Hover over icons for details or click to go to link.)</p></strong>
