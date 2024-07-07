@@ -12,7 +12,7 @@
   <style>
     body {
         margin: 0;
-        padding: 10px; /* Add padding to create a small gap */
+        padding: 10px;
         background-image: url('../back-ground.png');
         background-size: cover;
         display: flex;
@@ -20,23 +20,39 @@
         align-items: center;
         height: 100vh;
         font-family: Arial, sans-serif;
-        box-sizing: border-box; /* Include padding in the body's dimensions */
+        box-sizing: border-box;
     }
-    
+
     .info-box {
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
+        padding: 20px;
         border-radius: 10px;
-        text-align: center;
-        width: 100%; /* Reduce the width to fit within the gap */
+        width: calc(100% - 20px); /* Almost touches the sides */
         max-width: 1200px; /* Optional: Set a maximum width */
-        margin: 10px; /* Add margin to create a small gap */
-        box-sizing: border-box; /* Include padding in the element's dimensions */
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .profile-img {
         border-radius: 50%;
         max-width: 100px;
+    }
+
+    .title {
+        flex: 1;
+        text-align: left;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .content {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 20px;
     }
 
     .social-icons {
@@ -68,85 +84,87 @@
     }
 
     .bot-button {
-      border-radius: 5px;
-      background-color: #7289da;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
+        border-radius: 5px;
+        background-color: #7289da;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
     }
 
     .bot-button:hover {
-      background-color: #424549;
+        background-color: #424549;
     }
 
     .tos-button {
-      background-color: #7289da;
-      color: white;
-      display: inline-block;
-      cursor: pointer;
-      padding: 5px 10px;
-      margin: 2px 1px;
-      text-align: center;
-      border-radius: 3px;
+        background-color: #7289da;
+        color: white;
+        display: inline-block;
+        cursor: pointer;
+        padding: 5px 10px;
+        margin: 2px 1px;
+        text-align: center;
+        border-radius: 3px;
     }
 
     .tos-button:hover {
-      background-color: #424549;
+        background-color: #424549;
     }
   </style>
 </head>
 <body>
   <div class="info-box">
-    <img src="../gpt.png" alt="App icon" class="profile-img"><br>
-    <div>
-      <span style="font-size: 30px;">AI.Y Terms of Service</span><br>
+    <div class="title">
+      AI.Y Terms of Service
+    </div>
+    <img src="../gpt.png" alt="App icon" class="profile-img">
+    <div class="content">
       <p>Using AI-Y means accepting that all your messages and active channels are recorded and saved to a database, forevor or until they get deleted.<br> I can delete your messages or channels when I want and I can also view them when I want (This is somewhat public info anyway on Discord).<br>I am not in charge for any damages caused by this bot/AI and always know that AI.Y can make mistakes.<br><br> By using a command (Mentions/triggers count) or sending a message in an active channel, you accept this and can't complain about it. <br> <br> <strong>(Hover over icons for details or click to go to link.)</strong></p>
     </div>
     <div class="social-icons">
       <div title="Nonam4lol">
         <a href="https://reddit.com/u/nonam4lol">
-            <img src="../reddit.png" alt="Reddit">
+          <img src="../reddit.png" alt="Reddit">
         </a>
       </div>
       <div title="Yunexiz">
         <a href="https://github.com/Yunexiz">
-            <img src="../github.png" alt="GitHub">
+          <img src="../github.png" alt="GitHub">
         </a>
       </div>
       <div title="Yunexiz">
         <a href="https://gitlab.com/Yunexiz">
-            <img src="../gitlab.png" alt="GitLab">
+          <img src="../gitlab.png" alt="GitLab">
         </a>
       </div>
       <div title="Yunexiz">
         <a href="https://twitter.com/Yunexiz">
-            <img src="../twitter.png" alt="Twitter">
+          <img src="../twitter.png" alt="Twitter">
         </a>
       </div>
       <div title="yunexiz">
         <a href="../discord.html">
-            <img src="../discord.png" alt="Discord">
+          <img src="../discord.png" alt="Discord">
         </a>
       </div>
       <div title="Yunexiz#6689">
         <a href="/riot.html">
-            <img src="../riot.png" alt="Riot">
+          <img src="../riot.png" alt="Riot">
         </a>
       </div>
       <div title="Chat site by me">
         <a href="https://chitsy.talk4fun.net">
-            <img src="../chitsy.ico" alt="Chitsy">
+          <img src="../chitsy.ico" alt="Chitsy">
         </a>
       </div>
       <div title="Yunexiz">
         <a href="https://myanimelist.net/animelist/Yunexiz">
-            <img src="../mal.png" alt="MyAnimeList">
+          <img src="../mal.png" alt="MyAnimeList">
         </a>
       </div>
     </div>
