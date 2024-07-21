@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Yunexiz
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning Python,Javascript,C and HTML5
+- 🌱 I’m currently learning Python, Javascript, HTML and CSS
 - 💞️ I’m looking to collaborate on anything...
-- 📫 How to reach me: yunexiz(Discord)
+- 📫 All my socials are listed on https://yunexiz.is-a.dev
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I can't code 😄
 
