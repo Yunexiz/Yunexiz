@@ -40,9 +40,9 @@
 
     .social-icons {
         display: flex; /* Display icons side by side */
+        flex-wrap: wrap;
         justify-content: center; /* Center horizontally */
         margin-top: 20px; /* Add some spacing */
-        flex-wrap: wrap;
         max-width: 100vw;
     }
 
@@ -58,14 +58,13 @@
     .social-icons img {
         width: 100%;
         height: 100%;
-        transition: filter 0.5s ease-in-out, border 0.15s ease-in-out;
+        transition: transform 0.2s ease-in-out;
+        border-radius: 50%;
     }
 
     .social-icons img:hover {
-        filter: none; /* Remove the grayscale filter */
-        border: 2px solid white; /* Add a white border */
-        box-sizing: border-box; /* Ensure the border doesn't change the size of the element */
-        border-radius: 50%; /* Keep the icons round */
+      transform: scale(0.9); /* Reduce the size of the icon */
+      border: none; /* Remove the border */
     }
 
     .bot-button {
