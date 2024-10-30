@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on anything...
 - 📫 All my socials are listed on https://yunexiz.is-a.dev
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: I hate Javascript ✨
+- ⚡ Fun fact: I hate Regex.
 
 <!---
 Oonoos/Oonoos is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
