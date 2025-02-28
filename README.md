@@ -2,6 +2,6 @@
 - 👀 I’m interested in you
 - 🌱 I’m currently learning Python, Javascript, HTML and CSS
 - 💞️ I’m looking to collaborate on anything...
-- 📫 All my socials are listed on https://y.is-a.dev
+- 📫 All my socials are listed on https://yunexiz.is-a.dev
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I hate Regex.
