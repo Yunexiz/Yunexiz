@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Yunexiz
 - 👀 I’m interested in you
-- 🌱 I’m currently learning Python, Javascript, HTML and CSS
+- 🌱 I’m currently learning C
 - 💞️ I’m looking to collaborate on anything...
 - 📫 All my socials are listed on https://yunexiz.is-a.dev
 - 😄 Pronouns: He/Him
